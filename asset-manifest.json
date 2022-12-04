@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MarkDownNotes-React-App/static/css/main.fda85630.css",
+    "main.js": "/MarkDownNotes-React-App/static/js/main.36cc64db.js",
+    "index.html": "/MarkDownNotes-React-App/index.html",
+    "main.fda85630.css.map": "/MarkDownNotes-React-App/static/css/main.fda85630.css.map",
+    "main.36cc64db.js.map": "/MarkDownNotes-React-App/static/js/main.36cc64db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fda85630.css",
+    "static/js/main.36cc64db.js"
+  ]
+}
