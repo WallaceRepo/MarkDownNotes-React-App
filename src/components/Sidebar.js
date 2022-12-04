@@ -2,7 +2,13 @@ import React from "react"
 
 export default function Sidebar(props) {
     // console.log(props.notes[0].body.toString())
-
+    function setTitle ( note, index) {
+        if (note) {
+            return note.body.split("\n")[0]
+        } else {
+           return `Note + ${index +1}`
+        }
+    }
     const noteElements = props.notes.map((note, index) => (
             
         <div key={note.id}>
@@ -13,7 +19,8 @@ export default function Sidebar(props) {
                 }`}
                 onClick={() => props.setCurrentNoteId(note.id)}
             >   
-                <h4 className="text-snippet">{note.body.toString().split("\n")[0]}</h4>
+                <h4 className="text-snippet">{setTitle(note, index)}</h4>
+                {/* <h4 className="text-snippet">{note.body.split("\n")[0]}</h4> */}
                 {/* <h4 className="text-snippet">Note {index +1}</h4> */}
                 <button 
                     className="delete-btn"
