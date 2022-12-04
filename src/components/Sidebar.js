@@ -1,9 +1,10 @@
 import React from "react"
 
 export default function Sidebar(props) {
-   
+    // console.log(props.notes[0].body.toString())
+
     const noteElements = props.notes.map((note, index) => (
-      
+            
         <div key={note.id}>
             <div
                 
@@ -11,9 +12,9 @@ export default function Sidebar(props) {
                     note.id === props.currentNote.id ? "selected-note" : ""
                 }`}
                 onClick={() => props.setCurrentNoteId(note.id)}
-            > 
-                {/* <h4 className="text-snippet">{note.body.split("\n")[0]}</h4> */}
-                <h4 className="text-snippet">Note {index +1}</h4>
+            >   
+                <h4 className="text-snippet">{note.body.toString().split("\n")[0]}</h4>
+                {/* <h4 className="text-snippet">Note {index +1}</h4> */}
                 <button 
                     className="delete-btn"
                     // Your onClick event handler here
