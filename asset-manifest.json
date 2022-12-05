@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MarkDownNotes-React-App/static/css/main.fda85630.css",
-    "main.js": "/MarkDownNotes-React-App/static/js/main.6d55de45.js",
+    "main.js": "/MarkDownNotes-React-App/static/js/main.4fca00cd.js",
     "index.html": "/MarkDownNotes-React-App/index.html",
     "main.fda85630.css.map": "/MarkDownNotes-React-App/static/css/main.fda85630.css.map",
-    "main.6d55de45.js.map": "/MarkDownNotes-React-App/static/js/main.6d55de45.js.map"
+    "main.4fca00cd.js.map": "/MarkDownNotes-React-App/static/js/main.4fca00cd.js.map"
   },
   "entrypoints": [
     "static/css/main.fda85630.css",
-    "static/js/main.6d55de45.js"
+    "static/js/main.4fca00cd.js"
   ]
 }
